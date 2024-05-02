@@ -1,0 +1,352 @@
+.encabezado{
+    width: auto;
+    height: 56px;
+    display: flex;
+    align-items: center;
+    padding: 16px;
+    justify-content: space-between;
+}
+
+.encabezado header{
+    display: flex;
+    align-items: center;
+}
+
+.encabezado img{
+    flex-shrink: 0;
+}
+
+nav{
+    display: none;
+}
+
+.menu_list_item_contacto{
+    list-style: none;
+    align-self: flex-end;
+}
+
+.title__profile{
+    width: 98px;
+    height: 98px;
+}
+
+.personal-info{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.container-skills{
+    padding: 16px 0px 16px 0px;
+    margin: 0 auto;
+}
+
+.skill-items{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    width: 80%;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.item-box{
+    display: flex;
+    align-items: center;
+}
+
+.item-box ul, .hobbie-box ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    padding-left: 1em;
+}
+
+.skills__img{
+    width: auto;
+    height: 37px;
+    gap: 0px;
+    opacity: 0px;
+    margin-bottom: 10px;
+
+}
+
+.hobbie-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    padding-left: 1em;
+    box-sizing:border-box;
+    justify-content: center;
+}
+
+.container-hobbies{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    width: 80%;
+    margin: 0 auto;
+    padding: 10px 0 10px 0;
+    justify-content: space-between;
+}
+
+.hobbie-img{
+    width: 32px;
+    height: 32px;
+    gap: 0px;
+    opacity: 0px;
+    margin-bottom: 10px;
+}
+
+.container-academic{
+    display: flex;
+    flex-direction: column;
+}
+
+.experience-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.contact img{
+    display: none   ;
+}
+
+@media (min-width:768px) {
+    .title__div{
+        display: flex;
+        align-items: center;
+    }
+
+    .title__profile{
+        order: 2;
+        width: 146px;
+        height: 146px;
+    }
+
+    .title__container{
+        align-self:flex-start;
+        padding: 40px 40px 40px 0px;
+    }
+    
+    .skill-items{
+        width: 95%;
+    }
+
+    .item-box{
+    width: 224px;
+    height: 118px;
+    margin: 16px 0px 0px 0px;
+    padding: 0px;
+    }
+
+    .container-hobbies{
+        width: 95%;
+    }
+
+    .hobbie-box{
+        width: 224px;
+        height: 118px;
+        margin: 16px 0px 0px 0px;
+        padding: 0px;
+        padding-left: 1em;
+    }
+
+    .academic{
+        padding: 0px;
+        margin: 0 auto;
+        display: block;
+    }
+
+    .academic-title{
+        padding-top: 30px;
+    }
+
+    .container-academic{
+        width: 95%;
+        margin: 0 auto;
+    }
+    .academic-item{
+        display: flex;
+        flex-wrap: wrap;
+        gap:8px;
+        padding:10px 0 10px 0;
+        justify-content: space-between;
+    }
+
+    .academic__courses__list{              
+        width: 224px;
+        margin: 16px 0px 0px 0px;
+        padding: 0px;
+    }
+
+    .academic-item-img{
+    height: 118px;
+    padding: 0px;
+    }
+
+    .experience-container-all{
+        padding: 0px;
+        width: 95%;
+        margin: 0 auto;
+    }
+
+    .contact-container p{
+        line-height: 18.78px;
+    }
+}
+
+@media (min-width:1200px){
+    .encabezado{
+        width: 80%;
+        margin: 0 auto;
+        align-items: center;
+        height: 88px;
+        box-sizing: border-box;
+        
+        justify-content: space-between;
+    }
+    
+    .encabezado header{
+        display: flex;
+        gap: 8px;
+        padding-right: 20%;
+        White-space:nowrap
+    }
+    
+    nav{
+        display: block;
+        display: flex;
+        gap: 20px;
+        padding-right: 20px;
+    }
+
+    li{
+        display: inline;
+        White-space:nowrap
+    }
+
+    .menu_list_item_contacto{
+        align-self: initial;
+    }
+
+    .title_bio{
+        font-family: Raleway;
+        font-size: 52px;
+        font-weight: 700;
+        line-height: 61.05px;
+        text-align: left;
+    }
+
+    .title__profile{
+        width: 368px;
+        height: 368px;
+    }
+
+    .title-intro{
+        font-family: Raleway;
+        font-size: 22px;
+        font-weight: 400;
+        line-height: 25.83px;
+        text-align: left;
+    }
+
+    .about-title{
+        font-family: Raleway;
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 37.57px;
+        text-align: left;
+    }
+    
+    .about-paragraph{
+        font-family: Raleway;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 18.78px;
+        text-align: left;
+    }
+
+    .skills-title, .hobbie-title, .academic-title, .experience_section-title {
+        font-family: Raleway;
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 37.57px;
+        text-align: center;
+    }
+
+    .contact_section_title{
+        font-family: Raleway;
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 37.57px;
+    }
+
+    .skill-items, .container-hobbies, .container-academic {
+        width: 80%;
+    }
+
+    .item-box, .hobbie-box{
+        width: 176px;
+        height: 174px;
+        padding: 16px 0px 0px 0px;
+        gap: 8px;
+    }
+
+    .academic__courses__list{
+        width: 30%;
+        height: 347px;
+        padding: 16px 0px 0px 0px;
+        gap: 10px;
+    }
+    
+    .academic-item-img{
+        width: 368px;
+        height: 286px;
+        padding: 16px 0px 0px 0px;
+        gap: 10px;
+    }
+
+    .experience-container-all{
+        width:80%;
+    }
+
+    .experience-container:nth-child(odd){
+        display: flex;
+    }
+
+    .experience-container:nth-child(2n) div{
+        flex-direction: row-reverse;
+    }
+
+    .experiencie__box{
+        display: flex;
+        gap: 10px;
+        margin-bottom: 20px;
+    }
+
+    .experience-img{
+        width: 752px;
+        height: 406px;
+    }
+
+    .contact-all{
+        display: flex;
+        margin: 0 auto;
+        width: 80%;
+    }
+    
+    .contact img{
+        display: block;
+        padding-right: 20px;
+    }
+
+    .contact-container{
+        width:656px;
+        height: 596px;
+        gap: 32px;
+    }
+
+    
+
+}
+
